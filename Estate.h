@@ -1,8 +1,18 @@
 // Estate.h
 
-#ifndef _ESTATE_h
-#define _ESTATE_h
-
-
-#endif
+enum EState {
+	INIT,
+	ERROR,
+	CLOSE_VALVE,
+	MISCHER,
+	ZUFUHR,
+	RUEHREN,
+	ABFUHR,
+	OPEN_VALVE,
+	WAIT_TILL_EMPTY,
+	SHUTDOWN_MISCHER,
+	SHUTDOWN_ABFUHR,
+	PAUSE,
+	HAND,
+};
 
